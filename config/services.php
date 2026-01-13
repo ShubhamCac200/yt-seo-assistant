@@ -46,6 +46,11 @@ return [
     'serpapi' => [
         'key' => env('SERPAPI_KEY'),
     ],
+    'groq' => [
+        'key' => env('GROQ_API_KEY'),
+        'url' => 'https://api.groq.com/openai/v1/chat/completions',
+    ],
+
 
 
 
